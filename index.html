@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Game de Resgate</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div id="fundoGame">
+            <div id="inicio" onclick="start()">
+                <h1> Resgate </h1>
+                <p>Utilize a tecla ↑ para movimentar o helicóptero para cima, a tecla ↓ para movimentar o helicóptero para baixo e a tecla D para atirar.</p>
+                <p> Clique aqui para iniciar!! </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sons do jogo ! -->
+    <audio src="audios/som.mp3" preload="auto" id="somDisparo"></audio>
+    <audio src="audios/explosao.mp3" preload="auto" id="somExplosao"></audio>
+    <audio src="/audios/musica_fundo.mp3" preload="auto" id="musica"></audio>
+    <audio src="audios/gameover.mp3" preload="auto" id="somGameover"></audio>
+    <audio src="audios/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+    <audio src="audios/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="jquery-collision.min.js"></script>
+</body>
+
+</html>
